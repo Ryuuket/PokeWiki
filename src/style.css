@@ -1,0 +1,30 @@
+.imgPkmn {
+  width: 16vw;
+  height: auto;
+}
+
+#cardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.name {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: lightgrey solid 1px;
+  padding: 2px;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
