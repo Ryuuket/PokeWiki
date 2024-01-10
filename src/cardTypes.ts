@@ -25,7 +25,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "flying": {
                 divTypes += `
                     <div class="type">
-                        <div class="flying">flying</div>
+                        <p class="flying">flying</p>
                     </div>
                 `
                 break;
@@ -33,7 +33,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "poison": {
                 divTypes += `
                     <div class="type">
-                        <div class="poison">poison</div>
+                        <p class="poison">poison</p>
                     </div>
                 `
                 break;
@@ -41,7 +41,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "ground": {
                 divTypes += `
                     <div class="type">
-                        <div class="ground">ground</div>
+                        <p class="ground">ground</p>
                     </div>
                 `
                 break;
@@ -49,7 +49,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "rock": {
                 divTypes += `
                     <div class="type">
-                        <div class="rock">rock</div>
+                        <p class="rock">rock</p>
                     </div>
                 `
                 break;
@@ -57,7 +57,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "bug": {
                 divTypes += `
                     <div class="type">
-                        <div class="bug">bug</div>
+                        <p class="bug">bug</p>
                     </div>
                 `
                 break;
@@ -65,7 +65,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "ghost": {
                 divTypes += `
                     <div class="type">
-                        <div class="ghost">ghost</div>
+                        <p class="ghost">ghost</p>
                     </div>
                 `
                 break;
@@ -73,7 +73,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "steel": {
                 divTypes += `
                     <div class="type">
-                        <div class="steel">steel</div>
+                        <p class="steel">steel</p>
                     </div>
                 `
                 break;
@@ -81,7 +81,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "water": {
                 divTypes += `
                     <div class="type">
-                        <div class="water">water</div>
+                        <p class="water">water</p>
                     </div>
                 `
                 break;
@@ -89,7 +89,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "fire": {
                 divTypes += `
                     <div class="type">
-                        <div class="fire">fire</div>
+                        <p class="fire">fire</p>
                     </div>
                 `
                 break;
@@ -97,7 +97,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "grass": {
                 divTypes += `
                     <div class="type">
-                        <div class="grass">grass</div>
+                        <p class="grass">grass</p>
                     </div>
                 `
                 break;
@@ -105,7 +105,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "electric": {
                 divTypes += `
                     <div class="type">
-                        <div class="electric">electric</div>
+                        <p class="electric">electric</p>
                     </div>
                 `
                 break;
@@ -113,7 +113,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "psychic": {
                 divTypes += `
                     <div class="type">
-                        <div class="psychic">psychic</div>
+                        <p class="psychic">psychic</p>
                     </div>
                 `
                 break;
@@ -121,7 +121,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "dragon": {
                 divTypes += `
                     <div class="type">
-                        <div class="dragon">dragon</div>
+                        <p class="dragon">dragon</p>
                     </div>
                 `
                 break;
@@ -129,7 +129,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "ice": {
                 divTypes += `
                     <div class="type">
-                        <div class="ice">ice</div>
+                        <p class="ice">ice</p>
                     </div>
                 `
                 break;
@@ -137,7 +137,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "dark": {
                 divTypes += `
                     <div class="type">
-                        <div class="dark">dark</div>
+                        <p class="dark">dark</p>
                     </div>
                 `
                 break;
@@ -145,7 +145,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "fairy": {
                 divTypes += `
                     <div class="type">
-                        <div class="fairy">fairy</div>
+                        <p class="fairy">fairy</p>
                     </div>
                 `
                 break;
@@ -153,7 +153,7 @@ export function getTypes(pokemon: Pokemon): string{
             case "shadow": {
                 divTypes += `
                     <div class="type">
-                        <div class="shadow">shadow</div>
+                        <p class="shadow">shadow</p>
                     </div>
                 `
                 break;
@@ -161,7 +161,7 @@ export function getTypes(pokemon: Pokemon): string{
             default: {
                 divTypes += `
                     <div class="type">
-                        <div class="uknown">uknown</div>
+                        <p class="uknown">uknown</p>
                     </div>
                 `
                 break;

@@ -25,6 +25,17 @@
 
 .types {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #070D0D;
+}
+
+.logo {
+  width: 30vw;
+  height: auto;
 }
